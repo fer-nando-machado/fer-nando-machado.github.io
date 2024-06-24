@@ -5,9 +5,9 @@ type: intro
 Hello, world!
 
 My name is **Fernando Machado**. I was born in 1990 and
-I currently live in [São José dos Campos](https://goo.gl/maps/CqN2bSJMgxhejLE58), São Paulo, Brasil.
+I currently live in [Berlin, Germany](https://maps.app.goo.gl/iETR6NFQmsKfKyyq5).
 
-I've been working as a **full stack software developer** for around a decade.
+I've been working as a **full stack software developer** since 2007.
 I'm fluent in **agile** cerimonies and practices
 and love to learn new ways of applying technology
 to create products that can **solve real problems**.

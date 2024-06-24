@@ -2,7 +2,6 @@
   {{range where .Site.Pages "Type" "=" "intro"}} {{ .Content }} {{ end }}
 </div>
 
-
 <h2 class="sub-title">Tech Stack</h2>
 <img class="center" src="images/fullstack.png" alt="full-stack software developer" />
 <div class="split-lists tech-stack">
@@ -25,7 +24,6 @@
   {{range where .Site.Pages "Type" "=" "tech"}} {{ .Content }} {{ end }}
 </div>
 
-
 <h2 class="sub-title">Projects</h2>
 <div class="split-bio">
   {{range where .Site.Pages "Type" "=" "projects"}} {{ .Content }} {{ end }}
@@ -44,24 +42,10 @@
   {{ end }}
 </div>
 
-
 <h2 class="sub-title">Articles</h2>
 <div class="split-bio">
   {{range where .Site.Pages "Type" "=" "articles"}} {{ .Content }} {{ end }}
 </div>
-<div id="medium-widget"></div>
-<script src="/js/medium-widget-pixelpoint.js"></script>
-<script>MediumWidget.Init({
-  renderTo: '#medium-widget',
-  params: {"resource":"https://medium.com/@fernandomachado90",
-          "postsPerLine":2,
-          "limit":4,
-          "picture":"big",
-          "fields":["description"],
-          "ratio":"landscape"}
-})
-</script>
-
 
 <h2 class="sub-title">Connect</h2>
 <div class="split-bio">

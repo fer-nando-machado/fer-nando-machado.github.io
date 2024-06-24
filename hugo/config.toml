@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Fernando Machado | Software Engineer | Teacher"
 theme = "hugo-split-theme"
 canonifyurls = true
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
 googleAnalytics = "UA-171045664-1"
 copyright = "&copy; <script>document.write(new Date().getFullYear())</script> Fernando Machado - Photography by Ana Paula Daros - Icons by <a href='https://www.flaticon.com/authors/eucalyp'>Eucalyp</a> - Built with <a href='https://gohugo.io/'>Hugo</a> - Published by <a href='https://github.com/fer-nando-machado/github-page-maker'>GitHub Page Maker</a>"
 
@@ -116,13 +116,13 @@ copyright = "&copy; <script>document.write(new Date().getFullYear())</script> Fe
       heading = "Professional"
       [[params.links.list1.link]]
         text = "LinkedIn"
-        url = "http://linkedin.com/in/fernandomachado90"
+        url = "https://linkedin.com/in/fer-nando-machado/"
       [[params.links.list1.link]]
         text = "GitHub"
         url = "https://github.com/fer-nando-machado"
       [[params.links.list1.link]]
         text = "Medium"
-        url = "https://medium.com/@fernandomachado90"
+        url = "https://fernando-machado.medium.com"
 
   [[params.links]]
     [params.links.list2]

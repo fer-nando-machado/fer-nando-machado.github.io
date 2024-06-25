@@ -34,7 +34,7 @@ copyright = "&copy; <script>document.write(new Date().getFullYear())</script> Fe
       [[params.stack.list1.tech]]
         text = "Java"
       [[params.stack.list1.tech]]
-        text = "GoLang"
+        text = "Go"
       [[params.stack.list1.tech]]
         text = "microservices"
       [[params.stack.list1.tech]]

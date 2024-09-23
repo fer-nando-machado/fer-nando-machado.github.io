@@ -20,6 +20,10 @@ const Contacts: React.FC = () => {
         <li>
           <a href="mailto:lfmachado90@gmail.com">Email</a>
         </li>
+        <li>
+          Nintendo Switch:{" "}
+          <small title="Nintendo Switch Friend Code"> 4419-5091-4908 🍄</small>
+        </li>
       </ul>
     </section>
   );

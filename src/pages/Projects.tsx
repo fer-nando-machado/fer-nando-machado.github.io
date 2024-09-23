@@ -6,8 +6,8 @@ const Projects: React.FC = () => {
     <>
       <h2>Projects</h2>
       <p>
-        A selection of my <strong>open-source</strong> projects available at{" "}
-        <a href="https://github.com/fer-nando-machado/">GitHub</a>.
+        A selection of my <strong>open-source</strong> projects also available
+        at <a href="https://github.com/fer-nando-machado/">GitHub</a>.
       </p>
       <Section />
     </>

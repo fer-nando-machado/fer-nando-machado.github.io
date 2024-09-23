@@ -13,8 +13,8 @@ function App() {
             <strong>Software Engineer</strong>
           </header>
           <footer>
-            © {year} Fernando Machado - Photo by Ana Daros - Icon by{" "}
-            <Link to="https://www.flaticon.com/authors/eucalyp">Eucalyp</Link>
+            © {year} Fernando Machado. Photo by Ana Daros. Icon by{" "}
+            <a href="https://www.flaticon.com/authors/eucalyp">Eucalyp</a>
           </footer>
         </figure>
         <article>

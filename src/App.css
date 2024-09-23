@@ -1,14 +1,3 @@
-/*
-pink         ff4663
-dark pink    e20058
-
-yellow       ffc600
-dark yellow  ffa500
-
-blue         00c5ff
-dark blue    008de8
-*/
-
 header {
   position: absolute;
   top: 0;
@@ -84,6 +73,18 @@ section {
     flex-direction: column;
     gap: 8px;
     padding: 8px 16px;
+    top: 50px;
     text-align: center;
   }
 }
+
+/*
+pink         ff4663
+dark pink    e20058
+
+yellow       ffc600
+dark yellow  ffa500
+
+blue         00c5ff
+dark blue    008de8
+*/

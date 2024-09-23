@@ -12,8 +12,8 @@ const Work: React.FC = () => {
           LinkedIn
         </a>
         ).
-        <Experience />
       </p>
+      <Experience />
     </>
   );
 };

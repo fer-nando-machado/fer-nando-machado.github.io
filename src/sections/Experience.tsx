@@ -7,7 +7,9 @@ const Experience: React.FC = () => {
       <div>
         <h4>2024 2023</h4>
         <h3>
-          <a href="https://www.joindeed.com/">Deed</a> 🇩🇪 🇺🇸
+          <a href="https://www.joindeed.com/">Deed</a>
+          <br />
+          🇩🇪 🇺🇸
         </h3>
         <em>
           Donation processing, management and integration of payments with
@@ -20,7 +22,9 @@ const Experience: React.FC = () => {
       <div>
         <h4>2023 2021</h4>
         <h3>
-          <a href="https://www.klarna.com/">Klarna</a> 🇩🇪 🇮🇳
+          <a href="https://www.klarna.com/">Klarna</a>
+          <br />
+          🇩🇪 🇮🇳
         </h3>
         <em>
           Dashboard view (and a Google Chrome Extension) used to manage
@@ -33,7 +37,9 @@ const Experience: React.FC = () => {
       <div>
         <h4>2021 2020</h4>
         <h3>
-          <a href="https://www.loggi.com/">Loggi</a> 🇧🇷
+          <a href="https://www.loggi.com/">Loggi</a>
+          <br />
+          🇧🇷
         </h3>
         <em>
           User Authentication and Authorization services handled in integration
@@ -45,9 +51,11 @@ const Experience: React.FC = () => {
       <div>
         <h4>2020</h4>
         <h3>
-          <a href="https://www.thoughtworks.com/">ThoughtWorks</a> 🇧🇷
+          <a href="https://www.thoughtworks.com/">ThoughtWorks</a>
           <br />
-          <small>(Globo) 🇧🇷</small>
+          <small>(Globo)</small>
+          <br />
+          🇧🇷
         </h3>
         <em>
           Inception of a podcast publishing solution for a major media company,
@@ -60,9 +68,11 @@ const Experience: React.FC = () => {
       <div>
         <h4>2019</h4>
         <h3>
-          <a href="https://www.thoughtworks.com/">ThoughtWorks</a> 🇧🇷
+          <a href="https://www.thoughtworks.com/">ThoughtWorks</a>
           <br />
-          <small>(Globo) 🇧🇷</small>
+          <small>(Globo)</small>
+          <br />
+          🇧🇷
         </h3>
         <em>
           Modular user Authentication and Authorization service to provide
@@ -75,9 +85,11 @@ const Experience: React.FC = () => {
       <div>
         <h4>2019 2018</h4>
         <h3>
-          <a href="https://www.thoughtworks.com/">ThoughtWorks</a> 🇧🇷
+          <a href="https://www.thoughtworks.com/">ThoughtWorks</a>
           <br />
-          <small>(GAP)</small> 🇺🇸 🇮🇳
+          <small>(GAP)</small>
+          <br />
+          🇧🇷 🇺🇸 🇮🇳
         </h3>
         <em>
           Building a product allocation solution for a USA clothing retailer - a
@@ -93,7 +105,9 @@ const Experience: React.FC = () => {
       <div>
         <h4>2018 2014</h4>
         <h3>
-          <a href="https://touchhealth.com.br/">Touch Health</a> 🇧🇷
+          <a href="https://touchhealth.com.br/">Touch Health</a>
+          <br />
+          🇧🇷
         </h3>
         <em>
           Creating healthcare solutions, including software for appointment
@@ -109,7 +123,9 @@ const Experience: React.FC = () => {
       <div>
         <h4>2013 2012</h4>
         <h3>
-          <a href="https://compsis.com.br/">COMPSIS</a> 🇧🇷
+          <a href="https://compsis.com.br/">COMPSIS</a>
+          <br />
+          🇧🇷
         </h3>
         <em>
           Development of the financial module of a Road Toll system used in
@@ -123,7 +139,9 @@ const Experience: React.FC = () => {
       <div>
         <h4>2012 2011</h4>
         <h3>
-          <a href="https://www.iacit.com.br/en/">IACIT</a> 🇧🇷
+          <a href="https://www.iacit.com.br/en/">IACIT</a>
+          <br />
+          🇧🇷
         </h3>
         <em>
           Creation of a meteorology web app to view current cloud radar scans
@@ -135,9 +153,11 @@ const Experience: React.FC = () => {
       <div>
         <h4>2011 2008</h4>
         <h3>
-          <a href="https://onset.com.br/">OnSet Tecnologia</a> 🇧🇷
+          <a href="https://onset.com.br/">OnSet Tecnologia</a>
           <br />
-          <small>(Johnson & Johnson) 🌐</small>
+          <small>(Johnson & Johnson) </small>
+          <br />
+          🇧🇷 🌐
         </h3>
         <em>
           Building Microsoft Installers with Wise Package Studio and other tools
@@ -148,7 +168,9 @@ const Experience: React.FC = () => {
       <div>
         <h4>2008 2007</h4>
         <h3>
-          <a href="https://www.php.cybergarage.com.br/">CyberGarage</a> 🇧🇷
+          <a href="https://www.php.cybergarage.com.br/">CyberGarage</a>
+          <br />
+          🇧🇷
         </h3>
         <em>
           Creation of Custom Content Management software for websites: photo

@@ -68,3 +68,10 @@ section.projects img {
   background-image: linear-gradient(to right, #00c5ff33 1px, transparent 1px),
     linear-gradient(to bottom, #00c5ff33 1px, transparent 1px);
 }
+
+@media (max-width: 768px) {
+  section.projects div {
+    flex-direction: column;
+    gap: 0;
+  }
+}

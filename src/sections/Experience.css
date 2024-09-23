@@ -52,3 +52,14 @@ section.experience em {
 section.experience code {
   width: 225px;
 }
+
+@media (max-width: 768px) {
+  section.experience div {
+    flex-direction: column;
+  }
+  section.experience h3,
+  section.experience em,
+  section.experience code {
+    padding-left: 50px;
+  }
+}

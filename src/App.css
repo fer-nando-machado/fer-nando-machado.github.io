@@ -1,0 +1,89 @@
+/*
+pink         ff4663
+dark pink    e20058
+
+yellow       ffc600
+dark yellow  ffa500
+
+blue         00c5ff
+dark blue    008de8
+*/
+
+header {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  margin: 8px;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  color: #ffa500;
+  margin: 8px;
+  font-size: smaller;
+  bottom: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 8px;
+  margin: 12px;
+  background: midnightblue;
+  border-radius: 24px;
+  color: white;
+  padding: 8px 24px;
+  display: flex;
+  gap: 24px;
+  font-size: smaller;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
+figure {
+  position: relative;
+  flex: 1;
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+article {
+  flex: 1;
+  padding: 0 2.5vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: justify;
+}
+
+article h2 {
+  margin: 12px 0;
+  color: #ffa500;
+}
+
+article a {
+  text-decoration: underline;
+}
+
+section {
+  margin: 24px 0;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 16px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,37 @@
+section.tech-stack {
+  display: flex;
+  font-size: smaller;
+  border: 4px outset #e2005850;
+  background: #ff466350;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 24px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.tech-stack img {
+  max-width: 175px;
+  min-width: 75px;
+  width: 10vw;
+}
+
+section.tech-stack h3 {
+  text-transform: uppercase;
+  color: #e20058;
+}
+
+section.tech-stack div {
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  section.tech-stack {
+    flex-direction: column;
+  }
+  section.tech-stack div {
+    width: 175px;
+  }
+}

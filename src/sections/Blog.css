@@ -1,0 +1,31 @@
+section.blog a {
+  display: flex;
+  font-size: smaller;
+  border: 4px outset #16744575;
+  background: #16744550;
+  padding: 12px;
+  gap: 24px;
+  border-radius: 24px;
+  align-items: top;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+section.blog img {
+  height: 150px;
+  border-radius: 12.5px;
+}
+
+section.blog h3 {
+  color: #167445;
+  white-space: nowrap;
+}
+
+section.blog p {
+  max-height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

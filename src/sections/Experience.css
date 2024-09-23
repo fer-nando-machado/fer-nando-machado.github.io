@@ -1,0 +1,54 @@
+section.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: left;
+  position: relative;
+}
+
+section.experience:before {
+  content: "";
+  position: absolute;
+  left: 27px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: midnightblue;
+  z-index: -1;
+}
+
+section.experience div {
+  display: flex;
+  font-size: smaller;
+  align-items: baseline;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+section.experience h3 {
+  width: 175px;
+}
+
+section.experience h4 {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  padding: 4px;
+  background: white;
+  color: midnightblue;
+  outline: 2px solid midnightblue;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.experience em {
+  flex: 1;
+}
+
+section.experience code {
+  width: 225px;
+}

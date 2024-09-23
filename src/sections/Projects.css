@@ -1,0 +1,70 @@
+section.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+section.projects div {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  font-size: smaller;
+  align-items: center;
+  gap: 24px;
+}
+
+section.projects em {
+  display: block;
+  position: relative;
+  padding: 12px 0;
+  color: gray;
+  font-weight: 400;
+}
+
+section.projects div.highlight {
+  order: -1;
+}
+
+section.projects div.highlight em::after {
+  content: "🏗️ Work in Progress!";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 12px 0;
+}
+
+section.projects div.highlight,
+section.projects div.highlight em::after {
+  color: #00c5ff;
+  font-weight: bolder;
+}
+
+section.projects div > a {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  font-size: smaller;
+  color: #00c5ff;
+  border: 4px outset #008de875;
+  border-radius: 24px;
+  align-items: center;
+}
+
+section.projects div > a:hover {
+  transform: scale(1.2);
+  opacity: 1;
+  color: #008de8;
+  border-color: #008de8;
+}
+
+section.projects img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: scale-down;
+  padding: 12.5px;
+  background-size: 9px 9px;
+  background-image: linear-gradient(to right, #00c5ff33 1px, transparent 1px),
+    linear-gradient(to bottom, #00c5ff33 1px, transparent 1px);
+}

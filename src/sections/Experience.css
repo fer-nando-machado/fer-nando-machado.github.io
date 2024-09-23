@@ -1,15 +1,13 @@
 section.experience {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  text-align: left;
   position: relative;
 }
 
 section.experience:before {
   content: "";
   position: absolute;
-  left: 27px;
+  left: 19px;
   top: 0;
   width: 2px;
   height: 100%;
@@ -20,21 +18,20 @@ section.experience:before {
 section.experience div {
   display: flex;
   font-size: smaller;
-  align-items: baseline;
-  gap: 12px;
-  justify-content: space-between;
+  text-align: left;
+  gap: 25px;
 }
 
 section.experience h3 {
-  width: 175px;
+  width: 150px;
+  margin-left: -15px;
 }
 
 section.experience h4 {
-  min-width: 50px;
-  min-height: 50px;
-  max-width: 50px;
-  max-height: 50px;
-  padding: 4px;
+  min-width: 40px;
+  min-height: 40px;
+  max-width: 40px;
+  max-height: 40px;
   background: white;
   color: midnightblue;
   outline: 2px solid midnightblue;
@@ -50,16 +47,28 @@ section.experience em {
 }
 
 section.experience code {
-  width: 225px;
+  width: 150px;
 }
 
-@media (max-width: 768px) {
+section.experience h3,
+section.experience em,
+section.experience code {
+  margin-top: 40px;
+}
+
+@media (max-width: 1200px) {
   section.experience div {
     flex-direction: column;
+    gap: 5px;
   }
   section.experience h3,
   section.experience em,
   section.experience code {
-    padding-left: 50px;
+    margin-top: 0;
+    margin-left: 50px;
+    width: calc(100% - 50px);
+  }
+  section.experience h3 {
+    margin-top: -10px;
   }
 }

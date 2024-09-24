@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
   return (
     <section className="projects">
       <div>
-        <a href="https://github.com/fer-nando-machado/aceleradora-inclusiva-showcase-web">
+        <a href="https://fer-nando-machado.github.io/aceleradora-inclusiva/">
           <h3>Aceleradora Inclusiva</h3>
           <img src={AssetAceleradoraInclusiva} />
         </a>

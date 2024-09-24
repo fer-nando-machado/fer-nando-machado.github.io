@@ -7,6 +7,7 @@ import AssetDK3D from "../assets/DK3D.png";
 import AssetDKRedux from "../assets/dk-redux.png";
 import AssetEliza from "../assets/eliza.png";
 import AssetGitHubPageMaker from "../assets/github-page-maker.png";
+import AssetPkmn from "../assets/pkmn.png";
 import AssetWiiStreetView from "../assets/wii-street-view.jpg";
 import "./Projects.css";
 
@@ -25,13 +26,11 @@ const Projects: React.FC = () => {
           </a>
           , two social projects focused on technology education for the
           underprivileged. For two years, as a <strong>leader</strong>, I
-          gathered together hundreds of volunteersfrom different roles (and
-          companies) and directed the creation of the technical content and
-          social dimension of Aceleradora Inclusiva. As a{" "}
-          <strong>teacher</strong>, I was daily in the classroom, learning how
-          to teach and, in the process, paving the way for the first steps of
-          dozens of young students the IT industry. This hub features our HTML,
-          CSS and Javascript projects created during this time.
+          gathered together hundreds of volunteers from different roles (and
+          companies) and directed the creation of the technical and social
+          content of Aceleradora Inclusiva. As a <strong>teacher</strong>, I was
+          daily in the classroom, learning how to teach and paving the way for
+          the first steps of dozens of students the IT industry.
           <em>(2018—2020)</em>
         </p>
       </div>
@@ -126,6 +125,18 @@ const Projects: React.FC = () => {
           GitHub Pages with Hugo. Select a custom theme and publish a page like
           this one in minutes.
           <em>(2020)</em>
+        </p>
+      </div>
+
+      <div>
+        <a href="https://github.com/fer-nando-machado/pkmn-tmgt/">
+          <h3>Pokémon Tamagotchi</h3>
+          <img src={AssetPkmn} />
+        </a>
+        <p>
+          A game where you take care of your Pokémon like a 90s Tamagotchi,
+          written in Java with a UI designed with Swing.
+          <em>(2011)</em>
         </p>
       </div>
 

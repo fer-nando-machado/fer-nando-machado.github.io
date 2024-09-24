@@ -22,6 +22,10 @@ section.projects em {
   font-weight: 400;
 }
 
+section.projects h3 {
+  white-space: nowrap;
+}
+
 section.projects div.highlight {
   order: -1;
 }
@@ -73,5 +77,8 @@ section.projects img {
   section.projects div {
     flex-direction: column;
     gap: 0;
+  }
+  section.projects em {
+    margin-top: -12px;
   }
 }

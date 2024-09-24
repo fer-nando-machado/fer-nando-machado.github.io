@@ -52,7 +52,7 @@ section.projects div > a {
 }
 
 section.projects div > a:hover {
-  transform: scale(1.2);
+  transform: scale(1.125);
   opacity: 1;
   color: #008de8;
   border-color: #008de8;

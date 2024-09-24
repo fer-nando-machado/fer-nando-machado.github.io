@@ -5,6 +5,7 @@ import AssetCodebook from "../assets/codebook.jfif";
 import AssetCoinIdentifier from "../assets/coin-identifier.png";
 import AssetDK3D from "../assets/DK3D.png";
 import AssetDKRedux from "../assets/dk-redux.png";
+import AssetEliza from "../assets/eliza.png";
 import AssetGitHubPageMaker from "../assets/github-page-maker.png";
 import AssetWiiStreetView from "../assets/wii-street-view.jpg";
 import "./Projects.css";
@@ -97,6 +98,21 @@ const Projects: React.FC = () => {
           1981, built with React and Redux Toolkit, written in TypeScript,
           styled with SCSS and compiled by Vite.
           <em>(2024—)</em>
+        </p>
+      </div>
+
+      <div>
+        <a href="https://github.com/fer-nando-machado/eliza">
+          <h3>Eliza</h3>
+          <img src={AssetEliza} />
+        </a>
+        <p>
+          Free School Management software, including support for multiple
+          users/roles; calendar schedule views; student and teacher
+          registration; course management; enrollment processing; payment
+          collection and reporting. Cross-platform desktop app, created with
+          Electron, Angular and NeDB.
+          <em>(2016)</em>
         </p>
       </div>
 

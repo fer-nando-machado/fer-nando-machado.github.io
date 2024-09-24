@@ -1,6 +1,7 @@
 import React from "react";
 import AssetAceleradoraInclusiva from "../assets/aceleradora-inclusiva.png";
 import AssetAuraSocial from "../assets/aura-social.png";
+import AssetAuraSocialGif from "../assets/aura-social.gif";
 import AssetCodebook from "../assets/codebook.jfif";
 import AssetCoinIdentifier from "../assets/coin-identifier.png";
 import AssetDK3D from "../assets/DK3D.png";
@@ -8,6 +9,7 @@ import AssetDKRedux from "../assets/dk-redux.png";
 import AssetEliza from "../assets/eliza.png";
 import AssetGitHubPageMaker from "../assets/github-page-maker.png";
 import AssetPkmn from "../assets/pkmn.png";
+import AssetPkmnGif from "../assets/pkmn.gif";
 import AssetWiiStreetView from "../assets/wii-street-view.jpg";
 import "./Projects.css";
 
@@ -38,7 +40,10 @@ const Projects: React.FC = () => {
       <div>
         <a href="https://fernandomachado90.github.io/aura-social/">
           <h3>Aura Social</h3>
-          <img src={AssetAuraSocial} />
+          <div className="animation">
+            <img src={AssetAuraSocial} />
+            <img src={AssetAuraSocialGif} />
+          </div>
         </a>
         <p>
           Find out which colors emanate from your Instagram feed on this fun
@@ -131,7 +136,10 @@ const Projects: React.FC = () => {
       <div>
         <a href="https://github.com/fer-nando-machado/pkmn-tmgt/">
           <h3>Pokémon Tamagotchi</h3>
-          <img src={AssetPkmn} />
+          <div className="animation">
+            <img src={AssetPkmn} />
+            <img src={AssetPkmnGif} />
+          </div>
         </a>
         <p>
           A game where you take care of your Pokémon like a 90s Tamagotchi,

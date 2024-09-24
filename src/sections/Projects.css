@@ -73,6 +73,39 @@ section.projects img {
     linear-gradient(to bottom, #00c5ff33 1px, transparent 1px);
 }
 
+section.projects .animation:after {
+  content: "🎞️ VIDEO";
+  color: #008de8;
+  background: transparent;
+  border-radius: 0 0 50px 0;
+  position: absolute;
+  font-weight: 800;
+  padding: 0 5px 0 1px;
+  top: -5px;
+  left: 0;
+}
+
+section.projects .animation:hover:after {
+  color: white;
+  background: #008de8;
+}
+
+section.projects .animation img:first-child {
+  display: block;
+}
+
+section.projects .animation img:last-child {
+  display: none;
+}
+
+section.projects .animation:hover img:first-child {
+  display: none;
+}
+
+section.projects .animation:hover img:last-child {
+  display: block;
+}
+
 @media (max-width: 1200px) {
   section.projects div {
     flex-direction: column;

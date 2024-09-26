@@ -33,6 +33,7 @@ nav {
 aside {
   bottom: 0;
   right: 0;
+  margin: 4px 12px;
   opacity: 0.777;
 }
 aside.shrink:after {
@@ -72,7 +73,6 @@ article a {
   text-decoration: underline;
 }
 
-aside,
 nav,
 article > p,
 article > h2,

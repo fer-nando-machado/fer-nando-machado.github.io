@@ -13,17 +13,35 @@ footer {
   bottom: 0;
 }
 
+aside,
 nav {
   position: fixed;
-  top: 0;
-  right: 0;
-  background: midnightblue;
   border-radius: 24px;
   color: white;
-  padding: 8px 24px;
   display: flex;
   gap: 24px;
   font-size: smaller;
+}
+
+nav {
+  top: 0;
+  right: 0;
+  background: #303090;
+  padding: 8px 24px;
+}
+
+aside {
+  bottom: 0;
+  right: 0;
+  opacity: 0.777;
+}
+aside.shrink:after {
+  content: "🔍➖";
+  cursor: zoom-out;
+}
+aside.expand:after {
+  content: "🔍➕";
+  cursor: zoom-in;
 }
 
 main {
@@ -54,6 +72,7 @@ article a {
   text-decoration: underline;
 }
 
+aside,
 nav,
 article > p,
 article > h2,

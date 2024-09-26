@@ -102,7 +102,7 @@ const Experience: React.FC = () => {
         </em>
         <code>
           Java Groovy Hibernate Spring JSP Tomcat Oracle PostgreSQL Gerrit Git
-          Maven Jenkins Liquibase HTML CSS JavaScript Angular IntelliJ
+          Maven Jenkins Liquibase HTML CSS JavaScript Angular
         </code>
       </div>
       <div>
@@ -115,7 +115,7 @@ const Experience: React.FC = () => {
           countries like Brazil, Ecuador and India
         </em>
         <code>
-          Java Spring Hibernate HTML CSS JSP Oracle SVN Maven Hudson Eclipse
+          Java Spring Hibernate HTML CSS JSP Oracle SVN Maven Hudson
         </code>
       </div>
 

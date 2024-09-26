@@ -2,7 +2,6 @@ section.projects {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  align-items: center;
 }
 
 section.projects div {
@@ -81,7 +80,7 @@ section.projects .animation:after {
   position: absolute;
   font-weight: 800;
   padding: 0 5px 0 1px;
-  top: -5px;
+  top: 0;
   left: 0;
 }
 

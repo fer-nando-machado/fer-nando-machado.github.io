@@ -26,12 +26,14 @@ function App() {
           <Outlet />
         </article>
       </main>
-      <nav>
-        <Link to="/">Hello</Link>
-        <Link to="/work">Work</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/connect">Connect</Link>
-      </nav>
+      {!zoom && (
+        <nav>
+          <Link to="/">Hello</Link>
+          <Link to="/work">Work</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/connect">Connect</Link>
+        </nav>
+      )}
       <aside
         className={`${zoom ? "shrink" : "expand"}`}
         onClick={() => setZoom(!zoom)}

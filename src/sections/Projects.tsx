@@ -5,7 +5,6 @@ import AssetAuraSocialGif from "../assets/aura-social.gif";
 import AssetCodebook from "../assets/codebook.jfif";
 import AssetCoinIdentifier from "../assets/coin-identifier.png";
 import AssetDK3D from "../assets/DK3D.png";
-import AssetDKRedux from "../assets/dk-redux.png";
 import AssetEliza from "../assets/eliza.png";
 import AssetGitHubPageMaker from "../assets/github-page-maker.png";
 import AssetPkmn from "../assets/pkmn.png";
@@ -96,7 +95,7 @@ const Projects: React.FC = () => {
       <div className="highlight">
         <a href="https://fer-nando-machado.github.io/dk-redux/#M">
           <h3>DK-Redux</h3>
-          <img src={AssetDKRedux} />
+          <iframe src="https://fer-nando-machado.github.io/dk-redux/#M"></iframe>
         </a>
         <p>
           A reduxed remixed remake of Donkey Kong, the original arcade game from

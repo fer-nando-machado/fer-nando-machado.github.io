@@ -68,6 +68,7 @@ section.projects div > a:hover {
 
 section.projects object,
 section.projects img {
+  padding: 12.5px;
   background-size: 9px 9px;
   background-image: linear-gradient(to right, #00c5ff33 1px, transparent 1px),
     linear-gradient(to bottom, #00c5ff33 1px, transparent 1px);
@@ -75,17 +76,15 @@ section.projects img {
 
 section.projects img {
   display: block;
+  object-fit: contain;
   width: 150px;
   height: 150px;
-  object-fit: contain;
-  padding: 12.5px;
 }
 
 section.projects object {
-  width: 175px;
-  height: 250px;
+  width: 150px;
+  height: 235px;
   background-color: black;
-  padding: 7.5px 0;
 }
 
 section.projects iframe {
@@ -94,8 +93,8 @@ section.projects iframe {
   filter: grayscale(50%);
   width: 400px;
   height: 615px;
-  transform: scale(0.425);
-  transform-origin: 1.5% -4%;
+  transform: scale(0.375);
+  transform-origin: left top;
 }
 section.projects iframe:hover {
   filter: grayscale(0);

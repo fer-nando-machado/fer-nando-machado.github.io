@@ -35,8 +35,8 @@ nav {
 }
 
 aside {
-  bottom: 2px;
-  right: 16px;
+  bottom: 3px;
+  right: 18px;
   width: 25px;
   height: 25px;
   opacity: 0.5;
@@ -51,10 +51,12 @@ aside:hover {
 aside:after {
   content: "🔍";
 }
+aside.shrink:active:after,
 aside.shrink:hover:after {
   content: "➖";
   cursor: zoom-out;
 }
+aside.expand:active:after,
 aside.expand:hover:after {
   content: "➕";
   cursor: zoom-in;

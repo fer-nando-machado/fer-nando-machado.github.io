@@ -95,7 +95,9 @@ const Projects: React.FC = () => {
       <div className="highlight">
         <a href="https://fer-nando-machado.github.io/dk-redux/#M">
           <h3>DK-Redux</h3>
-          <iframe src="https://fer-nando-machado.github.io/dk-redux/#M"></iframe>
+          <object>
+            <iframe src="https://fer-nando-machado.github.io/dk-redux/#M"></iframe>
+          </object>
         </a>
         <p>
           A reduxed remixed remake of Donkey Kong, the original arcade game from

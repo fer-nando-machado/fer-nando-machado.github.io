@@ -9,7 +9,6 @@ import AssetEliza from "../assets/eliza.png";
 import AssetGitHubPageMaker from "../assets/github-page-maker.png";
 import AssetPkmn from "../assets/pkmn.png";
 import AssetPkmnGif from "../assets/pkmn.gif";
-import AssetQuaseMataGretchen from "../assets/gretchen.png";
 import AssetWiiStreetView from "../assets/wii-street-view.jpg";
 import "./Projects.css";
 
@@ -147,18 +146,6 @@ const Projects: React.FC = () => {
           A game where you take care of your Pokémon like a 90s Tamagotchi,
           written in Java with a UI designed with Swing.
           <em>(2011)</em>
-        </p>
-      </div>
-
-      <div>
-        <a href="https://fer-nando-machado.github.io/quase-mata-gretchen/">
-          <h3>Quase Mata Gretchen</h3>
-          <img src={AssetQuaseMataGretchen} />
-        </a>
-        <p>
-          A fun little Meme Maker written in pure HTML + CSS + JS and using
-          canvas and html2canvas.
-          <em>(2020)</em>
         </p>
       </div>
 

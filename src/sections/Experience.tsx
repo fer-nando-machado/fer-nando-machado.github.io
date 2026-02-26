@@ -114,9 +114,7 @@ const Experience: React.FC = () => {
           Development of the financial module of a Road Toll system used in
           countries like Brazil, Ecuador and India
         </em>
-        <code>
-          Java Spring Hibernate HTML CSS JSP Oracle SVN Maven Hudson
-        </code>
+        <code>Java Spring Hibernate HTML CSS JSP Oracle SVN Maven Hudson</code>
       </div>
 
       <div>

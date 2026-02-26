@@ -13,14 +13,17 @@ const Hello: React.FC = () => {
       <p>
         My name is <strong>Fernando Machado</strong>. I am {age} years old and I
         live in{" "}
-        <a href="https://maps.app.goo.gl/iETR6NFQmsKfKyyq5">Berlin, Germany</a>.
+        <a href="https://maps.app.goo.gl/zDRpNqLNPw7jYhcFA">
+          São Paulo, Brazil
+        </a>
+        .
       </p>
       <p>
         I am a <strong>Full Stack Software Engineer</strong>, fluent on{" "}
         <strong>Agile</strong> development practices and with {experience} years
         of professional experience. Over the years, I have worked with a variety
-        of programming languages and paradigms: from PHP to Java to Go to, as of
-        today, a <strong>Typescript</strong> oriented tech stack (with{" "}
+        of programming languages and paradigms: from PHP to Java to Go to a{" "}
+        <strong>Typescript</strong> oriented tech stack (centered around{" "}
         <strong>React</strong> and <strong>Node</strong>).
       </p>
       <p>

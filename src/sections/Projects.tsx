@@ -102,7 +102,7 @@ const Projects: React.FC = () => {
           A reduxed remixed remake of Donkey Kong, the original arcade game from
           1981, built with React and Redux Toolkit, written in TypeScript,
           styled with SCSS and compiled by Vite.
-          <em>(2024—)</em>
+          <em>(2024)</em>
         </p>
       </div>
 

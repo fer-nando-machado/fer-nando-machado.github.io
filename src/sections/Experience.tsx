@@ -5,6 +5,15 @@ const Experience: React.FC = () => {
   return (
     <section className="experience">
       <div>
+        <h4>2026</h4>
+        <h3>
+          Open To Work
+          <br />
+          <br />
+        </h3>
+      </div>
+
+      <div>
         <h4>2024</h4>
         <h3>
           <a href="https://www.joindeed.com/">Deed</a>
@@ -135,6 +144,8 @@ const Experience: React.FC = () => {
           <a href="https://onset.com.br/">OnSet Tecnologia</a>
           <br />
           <small>(Johnson & Johnson) </small>
+          <br />
+          <br />
         </h3>
         <em>
           Building Microsoft Installers with Wise Package Studio and other tools
